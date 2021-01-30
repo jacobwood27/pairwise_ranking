@@ -33,7 +33,7 @@ for i in order[2:end]
         comp = rand(lb:ub)
         comp_book = BOOKS[RANKS[comp]]
 
-        println("(a): ", this_book, "  or  (b): ", comp_book)
+        println(length(RANKS), "  (a): ", this_book, "  or  (b): ", comp_book)
         ui = getc1()
         # println(ui)
 
